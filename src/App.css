@@ -4,9 +4,9 @@
 }
 
 .colour-border{
-  border: 2px solid cornflowerblue;
+  border: 2px solid darkgoldenrod;
   padding: 10px;
-  border-radius: 4px;
+  border-radius: 20px;
 }
 
 .header{
@@ -15,5 +15,5 @@
 
 body{
   padding: 10px;
-  background-color: lightsalmon;
+  background-color: lightblue;
 }
