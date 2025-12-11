@@ -4,8 +4,9 @@
 }
 
 .colour-border{
-  border: 3px solid darkolivegreen;
+  border: 2px solid cornflowerblue;
   padding: 10px;
+  border-radius: 4px;
 }
 
 .header{
@@ -14,5 +15,5 @@
 
 body{
   padding: 10px;
-  background-color: greenyellow;
+  background-color: lightsalmon;
 }
