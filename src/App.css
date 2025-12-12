@@ -1,6 +1,19 @@
 .field{
   width: 300px;
-  padding-bottom: 20px;
+  padding: 20px 20px 20px 20px;
+  clear:both;
+
+}
+
+.formClass{
+  padding:10px;
+  background-color: antiquewhite;
+  align-content: center;
+  align-self: center;
+  width:30%;
+  clear:both;
+  border-radius: 30px;
+  position:relative;
 }
 
 .colour-border{
@@ -11,9 +24,38 @@
 
 .header{
   padding: 10px;
+  font-weight:bold;
+  font-size:2em;
+}
+
+.header_small{
+  /*padding: 10px;*/
+  font-weight:semi-bold;
+  font-size:1em;
+}
+
+.header_large{
+  padding: 10px;
+  font-weight:bold;
+  font-size:1.5em;
+  color:coral
 }
 
 body{
   padding: 10px;
   background-color: lightblue;
+  background-image: url('../public/tartan.jpg');
+}
+
+.layout{
+  width:80%;
+  align-self:flex-start;
+  padding:20px;
+}
+
+input {
+  padding:4px;
+  border-radius:4px;
+  border-color: #000;
+  border-width:1px;
 }
